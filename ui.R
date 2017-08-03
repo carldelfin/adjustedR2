@@ -6,10 +6,10 @@ fluidPage(
   
   sidebarPanel(
     sliderInput("rsquared", "R-squared value:",
-                min = 0, max = 1, value = 0.5, step = 0.01),
+                min = 0, max = 1, value = 0.4, step = 0.01),
     
     sliderInput("preds", "Number of predictors:",
-                min = 1, max = 20, value = 5, step = 1),
+                min = 1, max = 20, value = 3, step = 1),
     
     sliderInput("samplesize", label = "Sample size:", min = 5, 
                 max = 500, step = 5, value = c(10, 100)),
@@ -24,7 +24,8 @@ fluidPage(
                                "Herzberg",
                                "Claudy",
                                "Walker"),
-                   selected = "Wherry",
+                   selected = c("Smith", "Ezekiel", "Wherry", "OlkinPratt",
+                                "Pratt", "Herzberg", "Claudy", "Walker"),
                    multiple = TRUE)),
     
   mainPanel(plotOutput("plot"))
