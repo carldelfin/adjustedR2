@@ -6,3 +6,5 @@ There's some discussion on this topic over at StackExchange, see e.g. [here](htt
 
 I used formulas from Walker, D. A. (2007). A Comparison of Eight Shrinkage Formulas under Extreme Conditions. *Journal of Modern Applied Statistical Methods, 6*(1), available [here](http://digitalcommons.wayne.edu/cgi/viewcontent.cgi?article=1133&context=jmasm).
 
+The app is hosted [here](https://carldelfin.shinyapps.io/adjustedR2/).
+
